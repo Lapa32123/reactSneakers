@@ -1,0 +1,39 @@
+.banner{
+    width: 960px;
+    height: 300px;
+    
+}
+
+.banner img{
+    width: 920px;
+    position: relative;
+    height: 300px;
+    border-radius: 20px;
+
+}
+
+.banner-img{
+    border-radius: 20px;
+    position: absolute;
+    z-index: 0;
+    height: 300px;
+    width: 1100px;
+}
+
+.banner-text{
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.banner-text h1{
+    color: rgb(104, 161, 18);
+}
+
+.banner-text span {
+    color: black;
+}
